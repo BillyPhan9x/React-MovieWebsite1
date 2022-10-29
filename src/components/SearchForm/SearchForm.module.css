@@ -1,0 +1,66 @@
+.form {
+  width: 45%;
+  height: 23vh;
+  margin: auto;
+  border-radius: 4px;
+  background-color: var(--color-primary);
+  margin-top: 6rem;
+}
+
+.formForm {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 2rem;
+  align-items: center;
+  padding: 0.8rem 0;
+}
+
+.inputForm {
+  width: 50%;
+  border: none;
+  outline: none;
+  padding: 0.5rem 0;
+  padding-left: 1rem;
+}
+
+.inputForm:hover {
+  border: 1px solid #00bbec;
+  border-radius: 2px;
+}
+
+.dashLine {
+  border: 1px solid #00bbec;
+  background-color: #00bbec;
+}
+
+.buttons {
+  text-align: right;
+  margin: 28px 50px;
+}
+
+.btnReset,
+.btnSearch {
+  padding: 10px 20px;
+  border-radius: 2px;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btnReset {
+  margin-right: 5px;
+  background-color: transparent;
+  color: #6c6a70;
+}
+
+.btnSearch {
+  background-color: var(--color-blue);
+  color: var(--color-primary);
+}
+
+.btnReset:hover,
+.btnSearch:hover {
+  background-color: #6c6a70;
+  color: white;
+  transition: all 0.3s linear;
+}

@@ -1,0 +1,64 @@
+.foo {
+  background: var(--color-dark);
+  text-align: center;
+  padding: 25px;
+  color: var(--color-primary);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 14px;
+}
+
+.full {
+  font-size: 28px;
+}
+
+.icon {
+  display: flex;
+  gap: 20px;
+  font-size: 32px;
+}
+
+.icon-fa,
+.icon-gg,
+.icon-ins,
+.icon-twi {
+  cursor: pointer;
+  color: rgb(87, 87, 190);
+}
+
+.icon-fa:hover,
+.icon-gg:hover,
+.icon-ins:hover,
+.icon-twi:hover {
+  transform: scale(1.2);
+}
+
+@media screen and (max-width: 768px) {
+  .foo {
+    padding: 18px;
+  }
+
+  .full {
+    font-size: 24px;
+  }
+
+  .icon {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .foo {
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  .full {
+    font-size: 16px;
+  }
+
+  .icon {
+    font-size: 16px;
+  }
+}
